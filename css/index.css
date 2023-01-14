@@ -1,0 +1,186 @@
+
+.main-body{
+    padding: 0;
+    margin: 0;
+    background: #000;
+    background-image: url('../imgs/homapage-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    padding: 0;
+    margin: 0;
+    height: 800px;
+    width: 100%;
+}
+.sam_header{
+    background-color: transparent;
+}
+.headered{
+    background-color: transparent;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.main-bloks{
+    margin-top: 270px;
+}
+.main-bloks .container h1{
+    font-family: 'TenorSans_Regular';
+    font-weight: normal;
+    font-size: 60px;
+    color: #526b57;
+    text-align: center;
+    text-transform: uppercase;
+    width: 1096px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.main-bloks .container p{
+    font-size: 20px;
+    font-family: 'Raleway_Regular';
+    color: #728175;
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+.content_btn_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.content_btn_wrapper a{
+    display: block;
+    padding: 12px 37px;
+    border-radius: 10px;
+    font-family: 'Raleway_Regular';
+    font-size: 15px;
+    transition: 0.3s;
+}
+.content_btn_wrapper_Events{
+    background: #ddbd78;
+    color: #fff;
+    margin-right: 30px;
+}
+.content_btn_wrapper_Events:hover{
+    background: #e6c784;
+}
+.content_btn_wrapper_Resources{
+    background: #fff;
+    color: #ddbd78;
+}
+.content_btn_wrapper_Resources:hover{
+    background: rgb(244, 244, 244);
+}
+.footer_index{
+    display: flex;
+    align-items: center;
+    bottom: 40px;
+}
+.footer_index_line{
+    width: 100%;
+    background: #526b57;
+    height: 1px;
+}
+.footer_index_line_right{
+    margin-right: 30px;
+}
+.footer_index_line_left{
+    margin-left: 30px;
+}
+.footer_index_message{
+    display: flex;
+}
+.footer_index_message a{
+    margin-right: 30px;
+}
+.footer_index_message a:last-child{
+    margin-right: 0px;
+}
+.footer_wrapper{
+    padding: 50px 0px 30px;
+}
+@media(max-width : 1279px){
+    .sam_header{
+        background-color: #091315;
+    }
+    .headered{
+        background-color: #091315;
+    }
+}
+@media(max-width : 1119px){
+.container{
+    width: 100%;
+    padding: 0px 20px;
+}
+.main-bloks .container h1{
+    width: 100%;
+}
+.main-bloks .container p{
+    width: 100%;
+}
+}
+@media(max-width : 991px){
+
+}
+@media(max-width : 767px){
+    .container{
+        padding: 0px 10px;
+    }
+    .main-bloks .container h1{
+        font-size: 30px;
+    }
+    .main-bloks .container p{
+        font-size: 17px;
+    }
+    .main-body{
+        padding: 0;
+        margin: 0;
+        background: #000;
+        background-image: url('../imgs/homapage-maobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media(max-width : 420px){
+    .content_btn_wrapper_Events{
+        margin-right: 10px;
+    }
+    .content_btn_wrapper a{
+        padding: 12px 30px;
+    }
+    .footer_index_line_right{
+        margin-right: 15px;
+    }
+    .footer_index_line_left{
+        margin-left: 15px;
+    }
+}
+@media(max-width : 390px){
+    .container{
+        padding: 0 10px;
+    }
+    .main-bloks{
+        margin-top: 150px;
+    }
+    .main-bloks .container h1{
+        margin-bottom: 120px;
+    }
+
+}
+
+@media(max-width : 334px){
+    .headered{
+        padding: 0 20px;
+    }
+}
+@media(max-width : 320px){
+    .main-bloks .container h1{
+        font-size: 25px;
+    }
+}
+

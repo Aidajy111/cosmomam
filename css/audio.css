@@ -1,0 +1,325 @@
+.audio_big_img_wrapper{
+    position: absolute;
+    width: 50%;
+    top: -65px;
+    height: 1000px;
+    right: 0;
+}
+.audio_photo_wrapper{
+    position: relative;
+    margin-top: 64px;
+    width: 100%;
+    height: 1000px;
+}
+.audio_big_img_wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.resrurche_wrapper_blok{
+    width: 370px;
+    height: 231px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    background: #fff;
+    margin-right: 30px;
+    z-index: 10;
+}
+.resrurche_wrapper_blok:last-child{
+    margin-right: 0;
+}
+.resrurche_wrapper_blok img{
+    width: 104px;
+    height: 104px;
+    margin-bottom: 13px;
+}
+.resrurche_wrapper_blok h2{
+    color: #526b57;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    font-family: 'TenorSans_Regular';
+    font-weight: normal;
+}
+.audio_info_block{
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.audio_info_block .container h1{
+    font-family: 'TenorSans_Regular';
+    font-weight: normal;
+    font-size: 42px;
+    color: #526b57;
+    text-transform: uppercase;  
+    margin-bottom: 56px; 
+    position: relative;
+    z-index: 20;
+}
+.resrurche_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resrurche_wrapper_blok p{
+    font-size: 15px;
+    color: #526b57;
+    font-family: 'Raleway_Regular', sans-serif;
+    width: 280px;
+    line-height: 1.5;
+}
+.bachrond_ell_4{
+    position: absolute;
+    width: 45%;
+    background: #728175;
+    height: 545px;
+    left: 0;
+    top: 1909px;
+}
+.motivation_info_block{
+    position: relative;
+    margin-bottom: 100px;
+}
+.motivation_info_block .container h2{
+    font-family: 'TenorSans_Regular';
+    font-weight: normal;
+    font-size: 35px;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+    width: 274px;
+    z-index: 10;
+}
+.bachrond_ell_3{
+    top: 2645px;
+}
+.record_block_wr{
+    width: 644px;
+    font-family: 'Raleway_Regular', sans-serif;
+}
+.record_block_wr p{
+    width: 100%;
+    font-size: 15px;
+    color: #526b57;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.record_block_wr a{
+    display: block;
+    background: #ddbd78;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 114px;
+    text-align: center;
+    padding: 20px 35px;
+    cursor: pointer;
+    color: #fffbf3;
+    transition: 0.3s;
+}
+.record_block_wr a:hover{
+    background: #d4b26a;
+}
+.motivation_info_block .container{
+    display: flex;
+    justify-content: space-between;
+}
+.audio_voise_block{
+    position: relative;
+    margin-bottom: 50px;
+}
+.audio_voise_block:first-child{
+    margin-top: 121px;
+}
+.audio_voise_block:last-child{
+    margin-bottom: 0px;
+}
+.audio_voise_block__conent{
+    box-sizing: border-box;
+    z-index: 20;
+    width: 777px;
+    height: 100px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    padding: 30px 30px 30px 200px;
+    display: block;
+}
+.audio_voise_block__conent span{
+    font-size: 30px;
+    color: #526b57;
+    font-family: 'TenorSans_Regular';
+    font-weight: normal;
+    border-bottom: 1px solid #c7d1c7;
+}
+.audio_voise_block__conent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.audio_voise_block__conent img{
+    opacity: 0;
+    width: 14px;
+    height: 14px;
+    transition: all 0.3s ease;
+}
+.audio_voise_block__conent:hover img{
+    opacity: 1;
+}
+.audio_voise_block__img{
+    position: absolute;
+    z-index: 30;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #d2d9d2;
+    background: #fff;
+    top: -20px;
+    left: 70px;
+}
+.audio_voise_block__img img{
+    width: 73px;
+}
+.audio_voise_block__img {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width : 1119px){
+    .container{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .audio_voise_block__conent{
+        width: 571px;
+    }
+    .resrurche_wrapper_blok{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .resrurche_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .resrurche_wrapper_blok:last-child{
+        margin-bottom: 0;
+    }
+    .resourse_tittle_wrapper_content_box{
+        width: 90%;
+    }
+    .motivation_info_block .container{
+        flex-direction: column;
+    }
+    .bachrond_ell_4{
+        top: 2463px;
+    }
+    .bachrond_ell_3{
+        top: 3201px;
+    }
+    .container{
+        box-sizing: border-box;
+    }
+    }
+    .container-fix{
+        position: relative;
+    }
+    .bachrond_ell_2{
+        display: none;
+    }
+    @media(max-width : 991px){
+        .bachrond_ell_4{
+            top: 2426px;
+        }
+    }
+
+    @media(max-width : 767px){
+        .container{
+            padding: 0px 10px;
+        }
+        .audio_big_img_wrapper{
+            width: 100%;
+            height: 397px;
+        }
+        .audio_big_img_wrapper{
+            top: -380px;
+        }
+        .audio_voise_block:first-child{
+            margin-top: 401px;
+        }
+        .audio_voise_block__img{
+            width: 70px;
+            height: 70px;
+            left: 30px;
+            top: -10px
+        }
+        .audio_voise_block__conent span{
+            font-size: 20px;
+        }
+        .audio_photo_wrapper{
+            height: 578px;
+        }
+        .audio_info_block .container h1{
+            font-size: 28px;
+        }
+        .audio_voise_block__conent{
+            padding: 30px 30px 30px 141px;
+            height: 75px;
+            width: 95%;
+        }
+        .audio_voise_block__img img{
+            width: 48px;
+        }
+        .resrurche_wrapper_blok img{
+            width: 86px;
+            height: 86px;
+        }
+        .bachrond_ell_4{
+            width: 65%;
+            height: 325px;
+        }
+        .record_block_wr{
+            width: 100%;
+        }
+        .bachrond_ell_4{
+            top: 2466px;
+        }
+    }
+    @media(max-width : 574px){
+        .resrurche_wrapper_blok{
+            width: 85%;
+        }
+        .motivation_info_block .container h2{
+            font-size: 20px;
+            margin-bottom: 85px;
+        }
+        .resrurche_wrapper_blok{
+            padding: 15px;
+        }
+        .bachrond_ell_4{
+            top: 2371px;
+        }
+        .motivation_info_block .container h2{
+            width: 171px;
+        }
+        .resrurche_wrapper_blok p{
+            width: 100%;
+        }
+        .bachrond_ell_2{
+            display: block;
+            top: 2971px;
+            height: 133px;
+        }
+        .bachrond_ell_3{
+            top: 3282px;
+        }
+        
+    }
+    @media(max-width : 320px){
+        .audio_voise_block__conent{
+            padding: 30px 30px 30px 114px;
+        }
+        .audio_voise_block__conent span{
+            font-size: 15px;
+        }
+    }

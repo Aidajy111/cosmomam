@@ -1,0 +1,51 @@
+@import "deff";
+
+@import "hederMenu";
+
+/*main content*/
+.main_content_page{.W_H_back_def(@defW, @defH, @defBackground);}
+.main_content_page_ColorBlack{background-color: #091315;}
+.mainContent_senter{
+    .W_H_back_def(@defW, @defH, @defBackground);
+    .flex_def(@justifyCont, @alignItems);
+    .BackImage_settings_def(@backRepeat, 100%, center bottom, @backAttachment);
+    background-image: url('../imgs/1ecranOpacity.jpg');
+}
+
+/*main content markups for blocks 2-4*/
+.mainContent_senter_plusTobl4{
+    .W_H_back_def(@defW, auto, #FFFBF3);
+    background-image: url('../imgs/BigCub1.png'), url('../imgs/BigCub2.png');
+    background-position: 101px 308px, -369px 1452px;
+    background-repeat: no-repeat;
+    background-size: auto 639px, auto 824px;
+}
+
+@import "bl1";
+
+@import "bl2";
+
+@import "bl3";
+
+@import "bl4";
+
+@import "bl5";
+
+@import "bl6";
+
+@import "bl7";
+
+@import "bl8";
+
+@import "bl9";
+
+@import "BL10Futer";
+
+@import "adaptation";
+
+
+
+.orientN{position: absolute;display: none;}
+.result-item{display: none;}
+.senterBL6_Rightide_ContentBL p{display: none;}
+
